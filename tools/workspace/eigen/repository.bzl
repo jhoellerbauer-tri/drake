@@ -5,7 +5,7 @@ def eigen_repository(name):
     new_git_repository(
         name = name,
         remote = "https://gitlab.com/libeigen/eigen.git",
-        tag = "3.4.0-rc1",
+        tag = "3.3.9",
         build_file_content = """
 cc_library(
     name = "eigen",
